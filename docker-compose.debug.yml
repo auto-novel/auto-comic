@@ -1,0 +1,7 @@
+services:
+  api:
+    ports:
+      - 7001:7001
+  postgresql:
+    ports:
+      - 7002:5432

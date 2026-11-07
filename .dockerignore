@@ -1,0 +1,15 @@
+.git/
+.vscode/
+
+# Deploy
+/data/
+.env
+
+# Api
+/apps/api/auto-comic
+
+# Admin
+**/dist
+**/node_modules
+**/*.tsbuildinfo
+vite.config.ts.timestamp*

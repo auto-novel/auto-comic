@@ -1,0 +1,10 @@
+packages:
+  - apps/admin
+  - apps/web
+  - packages/*
+
+allowBuilds:
+  esbuild: true
+blockExoticSubdeps: false
+minimumReleaseAgeExclude:
+  - vite@8.2.2
